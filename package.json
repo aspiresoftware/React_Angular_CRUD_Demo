@@ -1,0 +1,16 @@
+{
+  "name": "react-angular-crud-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "babel --presets es2015,react --watch ./js/**/*.jsx -o ./js/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
